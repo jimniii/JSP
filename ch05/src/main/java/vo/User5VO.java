@@ -31,6 +31,10 @@ public class User5VO {
 	public void setAddr(String addr) {
 		this.addr = addr;
 	}
+	@Override
+	public String toString() {
+		return "User5VO [name=" + name + ", gender=" + gender + ", age=" + age + ", addr=" + addr + "]";
+	}
 	
 	
 	
